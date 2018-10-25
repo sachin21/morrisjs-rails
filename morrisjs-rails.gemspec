@@ -17,5 +17,4 @@ Gem::Specification.new do |gem|
   gem.version       = Morrisjs::Rails::VERSION
 
   gem.files = Dir["{lib,vendor}/**/*"] + ["README.md"]
-  gem.add_dependency "railties", "> 3.1", "< 6"
 end
